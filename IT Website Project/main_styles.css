@@ -1,0 +1,53 @@
+/* Global styles */
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: lightgrey;
+   color:  #eee;
+}
+
+.container{
+   background-color: #121212;
+   
+}
+/* possible light mode */
+@media (prefers-color-scheme: light){
+   body{
+      background-color: white;
+      color: #000000;
+   }
+}
+
+/* Site Navigation */
+nav.navbar {
+   list-style-type: none;
+ }
+ nav.navbar li {
+   font-size: 1.1em;
+   display: inline-block;
+ }
+nav.navbar a:link {
+    color: black;
+    text-decoration: none;
+ }
+ nav.navbar a:visited {
+    color: #573838;
+ }
+ nav.navbar a:hover, nav.navbar a:focus {
+    color: darkcyan;
+    text-shadow: 1px -1px 0 #000000;
+ }
+
+/* education specific styles */
+#contentStartEdu img{
+   max-width: 100%;
+   max-height: 33%;
+}
+#contentStartEdu .row{
+   border: 1px solid black;
+}
+figcaption{
+   font-size: small;
+}
+.edulist{
+   margin-left: 8px;
+}
